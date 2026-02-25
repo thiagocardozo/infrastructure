@@ -54,7 +54,7 @@ package_ipxe_path_calc() {
 # fi
 
 # iPXE
-if [ ! -f $working_directory/sources/ipxe/README ]; then
+if [ ! -f $working_directory/sources/ipxe/README.md ]; then
     mkdir -p $working_directory/sources/ipxe/
     cd $working_directory/sources/ipxe/
     git clone https://github.com/ipxe/ipxe.git .
